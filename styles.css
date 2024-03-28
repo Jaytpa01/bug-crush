@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+
+  min-height: 100vh;
+  min-width: 100vw;
+  background-color: beige;
+  overflow: hidden;
+}
+
+.rock {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+
+  background-size: cover;
+  background-image: url("public/rock.png");
+}
+
+.bug {
+  position: absolute;
+  width: 28px;
+  height: 28px;
+
+  background-size: cover;
+  background-image: url("public/bug.png");
+}
